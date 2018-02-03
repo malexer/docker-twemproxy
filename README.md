@@ -30,7 +30,7 @@ Just provide a list of Redis servers as ENV.
 
 i.e. if you want to redirect to three Redis instances, create this custom Dockerfile:
 
-    FROM twemproxy:0.4.1
+    FROM malexer/twemproxy:latest
 
     ENV REDIS_SERVERS 127.0.1.1:6379:1,127.0.1.2:6379:1,127.0.1.3:6379:1
 
@@ -119,7 +119,7 @@ yourconfig.conf:
 
 Dockerfile:
 
-    FROM twemproxy:0.4.1
+    FROM malexer/twemproxy:latest
 
     COPY yourconfig.conf /etc/nutcracker.conf
 
