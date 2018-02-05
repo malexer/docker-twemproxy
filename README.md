@@ -9,7 +9,7 @@ Based on minimalistic Alpine Linux.
 
 I was looking for a small image to use as a sidecar twemproxy container (Redis based).
 
-There are several twemproxy images already present on a Docker Hub but most of them are of huge (>100m) size or contain extra services which I was trying to avoid. Some of them also does not support graceful shutdown of twemproxy.
+There are several twemproxy images already present on a Docker Hub but most of them are of huge (>100m) size or contains extra services which I was trying to avoid. Some of them also does not support graceful shutdown of twemproxy.
 
 
 This image is targeting:
