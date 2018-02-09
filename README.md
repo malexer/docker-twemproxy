@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/malexer/twemproxy.svg)](https://microbadger.com/images/malexer/twemproxy "Get your own image badge on microbadger.com")
+
 # Overview
 
 A tiny (<6mb) Docker image of twemproxy server (AKA nutcracker).
