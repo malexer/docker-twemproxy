@@ -1,6 +1,8 @@
 [![](https://images.microbadger.com/badges/image/malexer/twemproxy.svg)](https://microbadger.com/images/malexer/twemproxy "Get your own image badge on microbadger.com")
 
 # Overview
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmalexer%2Fdocker-twemproxy.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmalexer%2Fdocker-twemproxy?ref=badge_shield)
+
 
 A tiny (<6mb) Docker image of twemproxy server (AKA nutcracker).
 
@@ -130,3 +132,7 @@ COPY yourconfig.conf /etc/nutcracker.conf
 
 EXPOSE 11380
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmalexer%2Fdocker-twemproxy.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmalexer%2Fdocker-twemproxy?ref=badge_large)
