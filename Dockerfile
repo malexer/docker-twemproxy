@@ -2,7 +2,7 @@
 
 FROM alpine:3.7 as builder
 
-ENV TWEMPROXY_URL https://github.com/twitter/twemproxy/archive/v0.4.1.tar.gz
+ENV TWEMPROXY_URL https://github.com/twitter/twemproxy/releases/download/0.5.0/twemproxy-0.5.0.tar.gz
 
 RUN apk --no-cache add alpine-sdk autoconf automake curl libtool
 
