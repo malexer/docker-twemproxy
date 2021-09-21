@@ -1,6 +1,6 @@
 # Build image
 
-FROM alpine:3.7 as builder
+FROM alpine:3.14 as builder
 
 ENV TWEMPROXY_URL https://github.com/twitter/twemproxy/releases/download/0.5.0/twemproxy-0.5.0.tar.gz
 
@@ -14,7 +14,7 @@ RUN curl -L "$TWEMPROXY_URL" | tar xzf - && \
 
 # Main image
 
-FROM alpine:3.7
+FROM alpine:3.14
 
 ENV LISTEN_PORT="6380" \
     REDIS_SERVERS="127.0.0.1:6378:1,127.0.0.1:6379:1" \
