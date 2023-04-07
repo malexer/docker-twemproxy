@@ -8,7 +8,7 @@ generate_config() {
 pool:
   listen: 0.0.0.0:${LISTEN_PORT}
   hash: ${HASH}
-  distribution: ketama
+  distribution: ${DISTRIBUTION}
   redis: true
   auto_eject_hosts: ${AUTO_EJECT_HOSTS}
   timeout: ${TIMEOUT}
