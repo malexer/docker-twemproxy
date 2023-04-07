@@ -23,7 +23,8 @@ ENV LISTEN_PORT="6380" \
     SERVER_RETRY_TIMEOUT="5000" \
     SERVER_FAILURE_LIMIT="1" \
     SERVER_CONNECTIONS="40" \
-    PRECONNECT="true"
+    PRECONNECT="true" \
+    HASH="fnv1a_64"
 
 RUN apk --no-cache add dumb-init
 

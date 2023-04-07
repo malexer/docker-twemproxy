@@ -7,7 +7,7 @@ generate_config() {
     cat > $CONFIG_PATH <<EOF
 pool:
   listen: 0.0.0.0:${LISTEN_PORT}
-  hash: fnv1a_64
+  hash: ${HASH}
   distribution: ketama
   redis: true
   auto_eject_hosts: ${AUTO_EJECT_HOSTS}
